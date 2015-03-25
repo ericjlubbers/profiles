@@ -1,6 +1,45 @@
 @import "settings";
 @import "foundation";
 
+h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2.1em;
+	font-weight: 700;
+	background: #91022D;
+	color:#ffffff;
+}
+
+body {
+    background: url(http://www.transparenttextures.com/patterns/buried.png) top left fixed;
+}
+
+h1.hed {
+	text-align: center;
+	font-weight: 700;
+}
+
+h3 {
+	color:#ffffff;
+}
+
+h4.sub {
+	text-align: center;
+	color: #212121;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+img.center {
+margin: 0 auto;
+float: none;
+}
+
+.intro {
+	font-size: 0.9em;
+	line-height: 1.1em;
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
